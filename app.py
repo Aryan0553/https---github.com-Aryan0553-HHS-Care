@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.title("🏥 HHS Care Forecasting & Capacity Planning")
 
-df = pd.read_excel("C:/inetpub/New excel/HHS_Forecasting_Final (1).xlsx")
+df = pd.read_excel("HHS_Care_Forecasting.xlsx")
 
 df["Date"] = pd.to_datetime(df["Date"])
 
